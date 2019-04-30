@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "604499826589",
+    "firebase_url": "https://crosssensors.firebaseio.com",
+    "project_id": "crosssensors",
+    "storage_bucket": "crosssensors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604499826589:android:661483432a293e7b",
+        "android_client_info": {
+          "package_name": "me.minikin.cross_sensors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604499826589-nmu6ta8cpsr90kvsod0o16prmngmp3c0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkTxR81dackOtnK1Ah5FzS4wNzyXI7Srs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604499826589-nmu6ta8cpsr90kvsod0o16prmngmp3c0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "604499826589-9cpcoq9dlrqb6drpl7gbdlhqaa6g16me.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "me.minikin.crossSensors"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
