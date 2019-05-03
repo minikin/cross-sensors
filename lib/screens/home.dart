@@ -1,11 +1,16 @@
 import 'dart:async';
 
+import 'package:cross_sensors/models/storage/storage.dart';
 import 'package:cross_sensors/models/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:sensors/sensors.dart';
 
 class Home extends StatefulWidget {
-  Home({Key key}) : super(key: key);
+  final Storage storage;
+  Home({
+    Key key,
+    @required this.storage,
+  }) : super(key: key);
 
   _HomeState createState() => _HomeState();
 }
@@ -117,6 +122,8 @@ class _HomeState extends State<Home> {
       setState(() {
         _accelerometerValues = <double>[event.x, event.y, event.z];
         print(_accelerometerValues);
+
+        widget.storage.writeSensorData('$_accelerometerValues');
       });
     }));
 
