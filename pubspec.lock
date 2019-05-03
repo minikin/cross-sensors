@@ -112,7 +112,7 @@ packages:
       name: cloud_firestore
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.10.0"
+    version: "0.10.1"
   code_builder:
     dependency: transitive
     description:
@@ -127,13 +127,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.14.11"
-  connectivity:
-    dependency: "direct main"
-    description:
-      name: connectivity
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.4.3+1"
   convert:
     dependency: transitive
     description:
@@ -183,13 +176,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.3.4"
-  firebase_performance:
+  firebase_storage:
     dependency: "direct main"
     description:
-      name: firebase_performance
+      name: firebase_storage
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.1"
+    version: "2.1.1+2"
   fixnum:
     dependency: transitive
     description:

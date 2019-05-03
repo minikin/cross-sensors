@@ -1,7 +1,7 @@
 import 'dart:async';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 import 'package:cross_sensors/models/storage/storage.dart';
-import 'package:cross_sensors/models/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:sensors/sensors.dart';
 
@@ -121,8 +121,7 @@ class _HomeState extends State<Home> {
         .add(accelerometerEvents.listen((AccelerometerEvent event) {
       setState(() {
         _accelerometerValues = <double>[event.x, event.y, event.z];
-        print(_accelerometerValues);
-
+        //print(_accelerometerValues);
         widget.storage.writeSensorData('$_accelerometerValues');
       });
     }));
@@ -130,7 +129,7 @@ class _HomeState extends State<Home> {
     _streamSubscriptions.add(gyroscopeEvents.listen((GyroscopeEvent event) {
       setState(() {
         _gyroscopeValues = <double>[event.x, event.y, event.z];
-        print(_gyroscopeValues);
+        //print(_gyroscopeValues);
       });
     }));
   }
