@@ -1,4 +1,7 @@
+import 'package:cross_sensors/screens/home.dart';
 import 'package:flutter/material.dart';
+
+import 'models/storage/storage.dart';
 
 class App extends StatefulWidget {
   App({Key key}) : super(key: key);
@@ -9,6 +12,8 @@ class App extends StatefulWidget {
 class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      home: Home(storage: Storage()),
+    );
   }
 }

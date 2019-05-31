@@ -1,5 +1,5 @@
 name: cross_sensors
-description: A new Flutter project.
+description: Read sensors data.
 
 version: 1.0.0+1
 
@@ -12,12 +12,10 @@ dependencies:
 
   built_collection: ^4.2.0
   built_value: ^6.4.0
-  cloud_firestore: ^0.10.0
-  connectivity: ^0.4.3+1
-  cupertino_icons: ^0.1.2
+  cloud_firestore: ^0.10.1
+  firebase_storage: ^2.1.1+2
   firebase_core: ^0.3.4
-  firebase_performance: ^0.1.1
-  firebase: ^5.0.3
+  cupertino_icons: ^0.1.2
   path_provider: ^0.5.0+1
   sensors: ^0.4.0+1
 

@@ -1,4 +1,4 @@
-package com.example.cross_sensors;
+package me.minikin.cross_sensors;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
